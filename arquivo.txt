@@ -1,0 +1,7 @@
+## ARQUITETURA 
+
+
+criar o escopo basico
+implementar o css
+conectar ao banco de dados mysql local
+adicionar script
