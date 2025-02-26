@@ -49,7 +49,7 @@ body {
     display: flex;
     height: 100%;
     width: 100%;
-    background-color: #c6d6d6;
+    background-color: #ffffff;
 }
 
 .menu {
@@ -74,17 +74,31 @@ body {
     overflow: scroll;
     width: 78%;
     height: 100%;
-    background-color: #dee7e7;
+    background-color: #f8f8f8;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    padding-top: 55px;
 }
 .list div {
-    width: 10%;
     height: 20%;
-    min-width: 300px;
     border-radius: 3px;
     min-height: 40px;
-    background-color: #c6d6d6;
+    background-color: #ffffff;
     margin: 2px;
+}
+@media (min-width: 302px) {
+    .list div {
+        min-width: 200px;
+       
+       
+      
+        
+    }
+}
+
+@media (max-width: 300px) {
+    .list div {
+        width: 94%;
+    }
 }
