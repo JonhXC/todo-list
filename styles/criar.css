@@ -2,25 +2,48 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
 }
-
 html, body {
     height: 100%;
 }
-
-
-.titulo {
-    width: 280px;
-    min-width: 70px;
-    height: 26px;
+.body {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.texto {
-    width: 280px;
-    min-width: 70px;
-    min-height: 200px;
+.form {
+    width: 300px;
+    height: 400px;
+    display: block;
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 2%;
+    text-decoration: none;
+
 }
-.button {
-    width: 280px;
-    min-width: 70px;
+.form-titulo {
+    height: 34px;
+    width: 98%;
+    margin: 10px 0px;
+    padding: 2px 3px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.form-texto {
+    width: 98%;
+    min-height: 100px;
+    margin-bottom: 5px;
+    padding: 2px 4px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form-button {
+    width: 80px;
     height: 26px;
 }
